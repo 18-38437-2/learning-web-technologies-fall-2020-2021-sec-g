@@ -1,0 +1,20 @@
+<address>
+    <name>John Doe</name>
+    <address>G# 106, R#3, Banani, Dhaka </address>
+    <dept>Sales</dept>
+    <salary>$20000</salary>
+</address>
+
+<address>
+    <name>Mark Zuckerberg</name>
+    <address>Flat# A/7, H# 77, R#81, Mirpur, Dhaka </address>
+    <dept>Account</dept>
+    <salary>$12000</salary>
+</address>
+
+<address>
+    <name>Ala Voski</name>
+    <address>H# 38, R#3, Motijheel </address>
+    <dept>Human Resource</dept>
+    <salary>$30000</salary>
+</address>
