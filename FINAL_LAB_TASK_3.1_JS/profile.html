@@ -1,0 +1,109 @@
+<html>
+<head>
+  
+  <title>Person Profile</title>
+</head>
+<body>
+  
+  <table border="1" align="center" width="55%">
+    <form action="personprofile.php" method="POST">
+     <tr height="70px">
+      <td colspan="3" align="center">
+       <big> <b>Personal Profile</b></big>
+      </td>
+     </tr>
+     <tr height="50px">
+      <td width="45px" align="left">Name: </td>
+      <td width="200px" align="left">
+        <input type="text" name="name" value=""> <br/>
+      </td>
+      <td width="50px"></td>
+     </tr>
+     <tr height="50px">
+      <td width="45px" align="left"> Email: </td>
+      
+      <td width="200px" align="left">
+        <input type="Email" name="email" value=""> <br/>
+      </td>
+      <td width="50px"></td>
+     </tr>
+     <tr height="50px">
+      <td width="45px" align="left"> Gender: </td>
+        
+      <td width="200px" align="left">
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">other 
+        <br/>
+      </td>
+      <td width="50px"> </td>
+     </tr>
+    
+     <tr height="50px">
+      <td width="45px" align="left"> Date Of Birth: </td>
+        
+      
+      <td width="200px" align="center">
+        <input type="date" name="dob"><br>
+
+      </td>
+      <td width="50px"> </td>
+     </tr>
+     <tr height="35px" align="left">
+      <td width="45px" align="left"> Blood Group: </td>
+        
+      <td width="165px" align="left">
+        <select name="bloodGroup">
+          <option>A+</option>
+          <option>B+</option>
+          <option>AB+</option>
+          <option>O+</option>
+          <option>A-</option>
+          <option>B-</option>
+          <option>AB-</option>
+          <option>O-</option>
+          
+        </select>
+       <br/>
+      </td>
+      <td width="50px"> </td>
+     </tr>
+     <tr height="50px">
+      <td width="45px" align="left"> Degree: </td>
+        
+      <td width="200px" align="left">
+        <input type="checkbox" name="Degree">SSC
+        <input type="checkbox" name="degree">HSC
+        <input type="checkbox" name="degree">BSc
+        <input type="checkbox" name="degree">MSc
+        <br/>
+      </td>
+      <td width="50px"> </td>
+     </tr>
+     <tr height="50px">
+      <td width="45px" align="left"> Photo: </td>
+      <td colspan="2" width="250px" align="left">
+        <input type="file" name="picture" size="">
+        <br/>
+      </td>
+      
+      
+     </tr>
+    
+     <tr height="50px">
+      <td colspan="3" align="center">
+        
+      </td>
+     </tr>
+     <tr height="50px">
+      <td colspan="3" align="right">
+        <input type="button" name="submit" value="submit">
+        <input type="button" name="reset" value="reset">
+        
+      </td>
+     </tr>
+    </form>
+     <script type="text/javascript" src="profilevalid.js"></script>
+  </table>
+</body>
+</html>
